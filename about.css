@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+section #main{
+    color: #aa8b24;
+    text-shadow: 0px 2px 2px #000; 
+    margin-top: 20px; 
+    font-size: 40px;  
+    position: inherit;
+    /* background-color:#00000046; */
+    /* width: 50%; align-self: center; */
+}
+
+body{
+    background-color:#e9e7e7;
+    background-image: url(images/more.jpg),
+    linear-gradient(0deg,  rgba(61, 59, 59, 0.205), 
+    rgba(61, 59, 59, 0.356), rgba(3, 3, 3, 0.938))!important;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+#sec1{
+    height: 300px;
+    margin: 20px 0;
+    /* margin-bottom: 40px; */
+    padding: 10px;
+}
+
+#sec2{
+    height: 300px;
+    margin: 20px 0;
+    /* margin-bottom: 40px; */
+    padding: 10px;
+}
+
+.def{
+    float: left;
+    box-shadow: 0px 10px 30px #0a0a0a4d;
+    padding: 20px;
+    margin-left: 4.1%;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.def:hover{
+    box-shadow:  10px 20px 50px #0000005d;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.8s;
+    font-size: 17px;
+    color: #382203;
+    background-color: #bebbbbde;
+    text-shadow: 0px 0px 1px #030303d8; 
+
+}
+
+.box1{
+    float: left;
+    width: 28%;
+    background-color: #3a382ee1;
+    color: #ffffff;
+    line-height: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box1 h1{
+    font: 24px times;
+    margin: 5px;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+@media(max-width:850px){
+    .box1{
+        width: 40%;
+        margin-right: 5.5%;
+        height: 360px;
+    }
+
+    #sec1 {
+        height: 800px;
+    }
+
+    #sec2 {
+        height: 800px;
+    }
+
+}
+
+@media(max-width:550px){
+    .box1{
+        width: 90%;
+        height: 220px;
+    }
+
+    #sec1{
+        height: 800px;
+    }
+
+    #sec2{
+        height: 800px;
+    }
+}
+
+
+
+/* Scroll fix */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2c2b2b;
+    /* transition: ease-in-out; */
+    transition-duration: 0.6s;
+    transition-delay: 0.4s;
+    height: 53px;
+  }
+  
+  .sticky + .mainitem {
+    padding-top: 102px;
+  }
+
+  @media(max-width:550px){
+    .sticky{
+        height: 95px;
+    }
+  }

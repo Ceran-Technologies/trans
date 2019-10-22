@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOTEL | BOOKING</title>
+  <link rel="stylesheet" type="text/css" href="myindex.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<div class="bg-img">
+	<!-- <img src="images/school.jpg" style="filter: blur(5px);"> -->
+    </div>
+   <div class="pg body">
+   	<!-- <div class="navbar">
+   		<a class="active" href="booking.html">Home</a>
+		<a class="" href="#">About</a>
+		<a class="" href="#">News</a>
+		<a class="" href="#">Contact Us</a>
+     </div> -->
+     
+    <nav>
+      <div class="navbar" id="myHeader">
+          <div class="right">
+              <a href="index.html">Home</a>
+              <a class="active" href="booking.html">Booking</a>
+              <a href="#">Contact Us</a>
+              <a href="about.html">About Us</a>
+          </div>
+      </div>
+  </nav>
+
+
+  <div class="row">
+  	<center><h1>Rooms & Gallery</h1></center>
+  <div class="column">
+   <a href="images/hotel2.jpg"><img src="images/hotel2.jpg"></a>
+   <a href="images/hotel1.jpg"><img src="images/hotel1.jpg"height="160.5px"></a> 
+   <a href="images/hotel3.jpg"><img src="images/hotel3.jpg" height="160px"></a>
+    <a href="images/hotel4.jpg"><img src="images/hotel4.jpg" height="160px"></a>
+    <a href="images/sit.jpg"><img src="images/sit.jpg" height="160px"></a>
+    <a href="images/hotel5.jpg"><img src="images/hotel5.jpg" height="160px"></a>
+    
+  </div>
+  </div>
+  <!-- <div class="clear"></div> -->
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname"  required="Y" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname"  required="Y" placeholder="Your last name.."><br>
+
+     <label for="pnumber">Phone Number</label>
+    <input type="text" id="pnumber" name="pnumber"  required="Y" placeholder="Enter Phone Number">
+
+    <label for="booking">Book a room:</label>
+    <select id="book" required="Y"  name="booking">
+	 <option value="vip">VIP</option>
+     <option value="regular">REGULAR</option>
+     <option value="local">LOCAL</option>
+    </select>
+    <br><br>
+    <label for="number_of_kids"> Number of kids:</label>
+    <select id="kids" required="Y"  name="kids-num">
+      <option value="" width="20%;"> - </option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br><br>
+    <label for="beds"> Number of beds:</label>
+    <select id="beds" name="beds">
+      <option value=""> - </option>
+      <option value="student/kingsize">student/kingsize</option>
+      <option value="double kingsize">double kingsize</option>
+      <option value="single kingsize">single kingsize</option>
+    </select>
+    <br><br>
+    <button type="submit"class="btn">BOOK NOW</button>
+
+	</div>
+	<div class="notify">
+		<a href="#"><h3>BOOK A CONFERENCE ROOM</h3></a>
+		<a href="#"><h3>EVENT HOSTING</h3></a>
+	</div>
+
+</form>
+
+<div class="clear"></div>
+<!-- <div class="MainFooter">
+	<div class="foot1">
+		<h2>Pages</h2>
+		<ul>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Site</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Policies</a></li>
+		</ul>
+	</div>
+
+	<div class="foot2">
+		<h2>Links</h2>
+		<ul>
+			<li><a href="#">Personal</a></li>
+			<li><a href="#">Flight</a></li>
+			<li><a href="#">Pick up</a></li>
+			<li><a href="#">Security</a></li>
+		</ul>
+	</div>
+
+	<div class="foot3">
+		<h2>Social</h2>
+		<ul>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">WhatsApp</a></li>
+			<li><a href="#">Instagram</a></li>
+		</ul>
+	</div>
+</div> -->
+  
+<footer id="main footer">
+  <div class="block">
+  <section id="visit">
+      <h3>Visit</h3>
+      <p><a href="book.html" target="_blank"> Make a Reservation</a></p>
+      <p><a href="#" target="_blank"> Find a Meeting room</a></p>
+      <p><a href="indexr.html" target="_blank"> Find a Restaurant</a></p>
+  </section>
+  </div>
+
+  <div class="block">
+      <h3>About</h3>
+      <p><a href="#" target="_blank">About us</a></p>
+      <p><a href="#" target="_blank">Terms and Conditions of Use</a></p>
+      <p><a href="#" target="_blank">Privacy Policy</a></p>
+  </div>
+
+  <div class="block">
+      <h3>Contact Us</h3>
+      <p>email us on trancehotel@gmail.com</p>
+      <p>@trancehotel</p>
+      <p>call us on 0249616730</p>
+  </div>
+
+  <div class="block">
+      <h3>Follow us</h3>
+  <p><a href="www.facebook.com" target="blank"><img src="images/fb.png" style="width: 30px;"></a></p>
+      <p><a href="www.instagram.com" target="blank"><img src="images/ii.jpg" style="width: 30px;"></a></p>
+      <p><a href="www.twitter.com" target="_blank"><img src="images/tt.png" style="width: 30px;"></a></p>                
+  </div>
+
+
+  <hr/>
+  <div class="copyright">
+      <marquee><em>Trance hotel, your lifestyle hotel choice!</em></marquee>
+      <hr/>
+      <p>copyright &copy;2019 Trance Hotel</p>
+  </div>
+
+</footer>
+
+</div>
+
+<script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+            } else {
+            header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+*{
+	transition: all 200ms linear;
+}
+body{
+	content:"";
+	position: absolute;
+	margin: 1px;
+	background-repeat: no-repeat;
+	background-image: url("images/hotelb.jpg"),  linear-gradient(20deg,  rgba(61, 59, 59, 0.205), 
+    rgba(61, 59, 59, 0.356), rgba(3, 3, 3, 0.938))!important;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-repeat:round;;
+	position:relative; ;
+	width: 100%;
+	height: 100%;
+	background-blend-mode: darken;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.row {
+	color: #fff ;
+  display: block;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  width: 60%; 
+  height: 500px;
+  float: left;
+  margin-left: 10px;
+    margin-top: 4%;
+    box-shadow: 0px 10px 30px rgba(0, 175, 171, 0.1);
+  /*overflow: all;*/
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  /*flex: 50%;*/
+  padding: 0 4px;
+  width: 100%;
+ 
+}
+
+.column img {
+  margin-right:5px;
+  width: 240px;
+  margin: 10px;
+
+}
+.column img:hover{
+	width: 245px;
+	height: 167px;
+	cursor:pointer;
+}
+.clear{
+	clear: both;
+}
+.container {
+	float: right;
+  /* position: absolute; */
+  right: 5%;
+  margin: 55px;
+  max-width: 320px;
+  padding: 16px;
+  background-color: rgba(0,0,0,0.4);
+  font-size:20px;
+  box-shadow: 0px 10px 30px rgba(0, 175, 171, 0.1);
+  font-family:Gill sans;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background:#005ce6;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 14px 10px;
+  cursor: pointer;
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 15px;
+  opacity: 0.9;
+  box-sizing:border-box;
+  box-shadow: 0px 10px 30px rgba(0, 175, 171, 0.1);
+  transition: all 0.5s;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: #fff;
+   background:  linear-gradient(to bottom,#005ce6 1%,#f1f1f1 );
+   transition: all 0.5s;
+}
+.notify{
+	margin-top: 43%;
+	background-color:transparent;
+	float: left;
+	margin-left: -760px;
+	width: 50%;
+	display: inline-flex;
+}
+.notify a{
+	margin-right: 70px;
+	text-decoration: none;
+	color:black;
+}
+.notify a:hover{
+	color: blue;
+}
+.MainFooter{
+	margin-top: 53%;
+	background: #333;
+	color: #fff;
+	height: 160px;
+	/*text-align: center;*/
+	padding: 10px;
+    font: 16px calibri;;
+}
+.foot1{
+	width: 15%;
+	height: 160px;
+	background:transparent;
+	float: left;
+	text-align: center;
+}
+.foot2{
+	width: 15%;
+	height: 160px;
+	background:transparent;
+	float: left;
+	text-align: center;
+}
+.foot3{
+	width: 15%;
+	height: 160px;
+	background:transparent;
+	float: left;
+	text-align: center;
+}
+.foot1 li, .foot2 li, .foot3 li{
+	list-style-type: none;
+	
+}
+h2{
+	margin-left: 30px;
+}
+.MainFooter a{
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+}
+.MainFooter a:hover{
+	color: blue;
+}
+option{
+	font-weight: bold;
+	font-family: Helvetica;
+	background-color:  rgba(0,0,0,0.2);
+	height: 30px;
+	text-transform: uppercase;
+}
+
+/* Scroll fix */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2c2b2b;
+    /* transition: ease-in-out; */
+    transition-duration: 0.6s;
+    transition-delay: 0.4s;
+    height: 53px;
+  }
+  
+  .sticky + .mainitem {
+    padding-top: 102px;
+  }
+
+  @media(max-width:550px){
+    .sticky{
+        height: 95px;
+    }
+  }
+
+  .clear{
+	  clear: both;
+  }

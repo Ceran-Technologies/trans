@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Navbar</title>
+</head>
+<body>
+    <header style="height: 200px;">
+        <nav id="myHeader">
+            <div class="navbar">
+                <div class="right">
+                    <a href="index.html">Home</a>
+                    <a href="booking.html">Booking</a>
+                    <a href="#">Contact Us</a>
+                    <a class="active" href="about.html">About Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <center>
+                <div id="main">
+                    <h1>About Transylvania</h1>
+                </div>
+            </center>
+        </section>
+
+    </header>
+
+    <section>
+       <div class="mainitem">
+           <center>
+           <div id="sec1">
+                <div class="def box1">
+                    <h1>Brief History</h1>
+                    <p>Hotel de Transylvania is renowned Hotel
+                        established in 1927. It started as a small 
+                        guest house with only 8 rooms. In 1938, it
+                        was upgraded to Hotel status, with 15 executive
+                        rooms and
+                    </p>
+                </div>
+                <div class="def box1">
+                    <h1>Mission</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sint quasi tempore sequi
+                    itaque consequuntur, magnam quia laboriosam
+                        assumenda vitae magni! Eveniet at in distinctio
+                    illo laborum sint quia dolor totam.</p>
+                </div>
+                <div class="def box1">
+                    <h1>Vision</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sint quasi tempore sequi
+                    itaque consequuntur, magnam quia laboriosam
+                        assumenda vitae magni! Eveniet at in distinctio
+                    illo laborum sint quia dolor totam.</p>
+                </div>
+           </div>
+        </center>
+           <div id="sec2">
+                <div class="def box1">
+                    <h1>Awards</h1>
+                    <ul>
+                        <li>Best Hotel Services: 2002</li>
+                        <li>Best Customer Services: 2005</li>
+                        <li>Hotel of the Year: 2005</li>
+                        <li>Most Secure Hotel: 2006</li>
+                        <li>Best Facilities: 2009</li>
+                        <li>Best Catering Services: 20014</li>
+                    </ul>
+                </div>
+                <div class="def box1">
+                    <h1>Facilities</h1>
+                    <ul>
+                        <li>36 Luxury Rooms</li>
+                        <li>29 Executive Lounge</li>
+                        <li>80 Regular Rooms</li>
+                        <li>5 Confrence Halls</li>
+                        <li>A Restaurant</li>
+                        <li>30ft * 15ft Swimming Pool</li>
+                    </ul>
+                </div>
+                <div class="def box1">
+                    <h1>Staff</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sint quasi tempore sequi
+                    itaque consequuntur, magnam quia laboriosam
+                        assumenda vitae magni! Eveniet at in distinctio
+                    illo laborum sint quia dolor totam.</p>
+                </div>
+           </div>
+       </div>
+    </section>
+
+    <footer id="main footer">
+        <div class="block">
+        <section id="visit">
+            <h3>Visit</h3>
+            <p><a href="book.html" target="_blank"> Make a Reservation</a></p>
+            <p><a href="#" target="_blank"> Find a Meeting room</a></p>
+            <p><a href="indexr.html" target="_blank"> Find a Restaurant</a></p>
+        </section>
+        </div>
+
+        <div class="block">
+            <h3>About</h3>
+            <p><a href="#" target="_blank">About us</a></p>
+            <p><a href="#" target="_blank">Terms and Conditions of Use</a></p>
+            <p><a href="#" target="_blank">Privacy Policy</a></p>
+        </div>
+
+        <div class="block">
+            <h3>Contact Us</h3>
+            <p>email us on trancehotel@gmail.com</p>
+            <p>@trancehotel</p>
+            <p>call us on 0249616730</p>
+        </div>
+
+        <div class="block">
+            <h3>Follow us</h3>
+		    <p><a href="www.facebook.com" target="blank"><img src="images/fb.png" style="width: 30px;"></a></p>
+            <p><a href="www.instagram.com" target="blank"><img src="images/ii.jpg" style="width: 30px;"></a></p>
+            <p><a href="www.twitter.com" target="_blank"><img src="images/tt.png" style="width: 30px;"></a></p>                
+        </div>
+    
+
+        <hr/>
+        <div class="copyright">
+            <marquee><em>Trance hotel, your lifestyle hotel choice!</em></marquee>
+            <hr/>
+            <p>copyright &copy;2019 Trance Hotel</p>
+        </div>
+     
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+            } else {
+            header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>

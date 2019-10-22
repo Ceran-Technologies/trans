@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	/*box-sizing: border-box;*/
+	background:rgba(0,0,0,0.05);
+	transition: all 400ms linear;
+}
+.body{
+	margin-top: -8%;
+	width:90%;
+	margin-left: 5%;
+	box-shadow: 0px 3px 15px #111;
+}
+
+h4{
+	margin-top: -1%;
+	font-size: 25px;
+	background: transparent;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #111;
+	text-shadow: 1px 1px 3px #000000;
+}
+.navbar a{
+	float: right;
+	margin-top: -4%;
+	margin-right: 10px;
+	text-decoration: none;
+	/*color: blue;*/
+	background: transparent;
+	font-family:franklin gothic;
+}
+.navbar{
+	height: 220px;
+	margin-top:-2%;
+	text-align: center;
+	background:transparent;
+}
+.navbar h2{
+	font-family: cooper;
+	font-size: 63px;
+	margin-top: 2%;
+	background:transparent;
+	text-shadow: 2px 2px 4px #111;
+}
+h1{
+	background-color:brown;
+	text-align:center;
+	font-size: 40px;
+	font-family: cooper;
+	letter-spacing: 1.5px;
+}
+h2{
+	font-family: wide latin;
+	background-color: white;
+	width: 100%;
+	margin-top: -1.7%;
+	text-align: center;
+	letter-spacing: 2px;
+	height:35px;
+	/*border: 1px solid;*/
+}
+h3{
+	font-weight: bold;
+	font-family: elephant;
+	background: transparent;
+	margin-left: 23%;
+	width: 40%;
+	letter-spacing: 1.5px;
+}
+.type p{
+	margin-left: 23%;
+	width: 30%;
+	background: transparent;
+	font-family: lucida sans;
+}
+.type{
+	border: 1px solid black;
+	background-color:white;
+	height: 200px; 
+	margin-top:-1%;
+}
+.type img{
+	margin-left: 10px;
+	margin-top: 0.5%;
+}
+.btn{
+	float: right;
+	margin-right: 10%;
+	font-weight: bold;
+	font-family: cooper;
+	background: orange;
+	color: brown;
+	width: 10%;
+	box-shadow: 0px 1px 4px grey;
+}
+.btn:hover{
+	cursor: pointer;
+	color: red;
+}
+label{
+	margin-left: 60px;
+	background: transparent;
+	font-weight: bold;
+}
+option{
+	color:brown;
+	font-weight: bolder;
+}
+select{
+	color: brown;
+	border-radius: 5px;
+}
+#sizes{
+	font-weight: bold;
+	font-family: franklin gothic;
+}
+.MainFooter{
+	background: rgba(0,0,0,0.6);
+	height: 33px;
+	margin-top: 1%;
+}
+.MainFooter li,.MainFooter a{
+	list-style-type: none;
+	float: left;
+	color: #fff;
+	background: transparent;
+	text-decoration: none;
+	/*display: inline-block;*/
+}
+.MainFooter p{
+	margin-top: 1%;
+	text-align: center;
+	color: #111;
+	text-shadow: 2px 2px 4px #000000;
+}
