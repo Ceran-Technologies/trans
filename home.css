@@ -128,11 +128,11 @@ a{
 
 .block{
     float: left;
-    width: 25%;
+    width: 70%;
 }
 
 .block a{
-    margin: 20px;
+/*     margin: 20px; */
 }
 
 .block h3{
@@ -170,5 +170,27 @@ a{
   @media(max-width:550px){
     .sticky{
         height: 95px;
+    }
+    footer{
+    	display: grid;
+    	grid-template-columns: repeat(1,1fr);
+    	text-align:left;
+    	grid-gap: 10px;
+    	width: 100%;
+    	text-align: center;
+    }
+    .block{
+    	width: 100%;
+    }
+    .block a{
+    	width: 100%;
+    	text-align: center;
+    	justify-content: center;
+    }
+    #showcase .boxsizing{
+   	width: 100%;
+    margin: 1px;
+    font-size: 28px;
+    margin-top: 10%;
     }
   }
